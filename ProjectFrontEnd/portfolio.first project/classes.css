@@ -1,0 +1,89 @@
+#section1 {
+    width: 14%;
+    height: 100ch;
+    float: left;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+}
+
+#section2 {
+    width: 86%;
+    height: 100ch;
+    float: right;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: auto;
+    overflow: hidden;
+}
+
+.row {
+    width: auto;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    box-shadow: inset -3px 3px 5px -5px powderblue;
+}
+
+.row2 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/depositphotos_52266229-stock-illustration-exercise-book-in-a-ruler.jpg);
+    background-size: cover;
+}
+
+.col2 {
+    width: calc(100%/7)*7;
+    display: flex;
+    margin-top: 5px;
+}
+
+.col2:hover {
+    background-color: whitesmoke;
+    box-shadow: inset 3px 3px 7px -5px #000000
+}
+
+.row3 {
+    width: auto;
+}
+
+ul {
+    width: auto;
+    height: 800px;
+}
+
+.ul1 {
+    width: auto;
+    height: 600px;
+}
+
+#about {
+    width: auto;
+}
+
+.col3 {
+    box-shadow: inset 3px 3px 7px -5px grey;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background: rgb(5, 77, 72)
+}
+
+#projects {
+    width: auto;
+}
+
+#skills {
+    width: auto;
+}
+
+#education {
+    width: auto;
+}
