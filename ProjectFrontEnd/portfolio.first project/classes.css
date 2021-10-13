@@ -1,5 +1,5 @@
 #section1 {
-    width: 14%;
+    width: 200px;
     height: 100ch;
     float: left;
     background: rgb(255, 255, 255);
@@ -9,9 +9,10 @@
 }
 
 #section2 {
-    width: 86%;
+    width: 1300px;
     height: 100ch;
     float: right;
+    margin-left: 200px;
     box-sizing: border-box;
 }
 
@@ -23,13 +24,38 @@
 .row {
     width: auto;
     height: 25%;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     border-bottom: 1px solid rgb(184, 183, 183);
     box-shadow: inset -3px 3px 5px -5px powderblue;
 }
+.language{
+    display:grid;
+    grid-template-columns: 40px 40px 40px;
+    height:40px; 
+    column-gap: 38px;
+}
 
+.language-rus{
+    border-radius: 50%;
+    border: 1px solid red;
+    position: relative;
+    top: 15px;
+}
+.language-eng{
+    border-radius: 50%;
+    border: 1px solid red;
+    position: relative;
+    top: 15px;
+
+}
+.language-az{
+    border-radius: 50%;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
 .row2 {
     width: auto;
     display: flex;
@@ -38,42 +64,167 @@
     background-size: cover;
 }
 
-.col2 {
-    width: calc(100%/7)*7;
+.col1 {
+    width: auto;
     display: flex;
-    margin-top: 5px;
+    margin-top: 2px;
+}
+
+.col1:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid green;
+    transition: all 0.5s ease;
+}
+
+.col2 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+    overflow: hidden;
 }
 
 .col2:hover {
     background-color: whitesmoke;
-    box-shadow: inset 3px 3px 7px -5px #000000
+    border-left: 4px solid blue;
+    transition: all 0.5s ease;
+}
+
+.col3 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.col3:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid blueviolet;
+    transition: all 0.5s ease;
+}
+
+.col4 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.col4:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid yellow;
+    transition: all 0.5s ease;
+}
+
+.col5 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.col5:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid rgb(70, 6, 6);
+    transition: all 0.5s ease;
+}
+
+.col6 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.col6:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid goldenrod;
+    transition: all 0.5s ease;
+}
+
+.col7 {
+    width: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.col7:hover {
+    background-color: whitesmoke;
+    border-left: 4px solid grey;
+    transition: all 0.5s ease;
 }
 
 .row3 {
-    width: auto;
+    width: 1300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+    display: block;
 }
 
 ul {
-    width: auto;
-    height: 800px;
+    width: 100%;
+    height: 700px;
+    margin: 0px;
 }
 
 .ul1 {
     width: auto;
-    height: 600px;
+    height: 550px;
+    display: block;
+}
+
+.ul1firsttext {
+    width: 1000px;
+    height: 100px;
+    color: rgb(66, 37, 3);
+    border-left: 5px solid rgb(49, 27, 1);
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.ul1secondtext {
+    width: 680px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    color: black;
+}
+.ul1secondtext2{
+    width: 680px;
+    height: 100px;
+    position: relative;
+    left: 58px;
+    bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+.ul1secondtext3{
+    width: 700px;
+    height: 100px;
+    position: relative;
+    left: 58px;
+    top: 15px;
+    font-size: 20px;
+    color: black;
+}
+.ul1third{
+    color: rgb(49, 27, 1);
+    position: relative;
+    width: 500px;
+    height: 40px;
+    left: 160px;
+    top: 60px;
+    font-size: 22px;
+
 }
 
 #about {
     width: auto;
 }
 
-.col3 {
-    box-shadow: inset 3px 3px 7px -5px grey;
-    margin-top: -20px;
+.col8 {
     display: flex;
     justify-content: center;
-    height: 60px;
-    background: rgb(5, 77, 72)
+    height: 100px;
+    background: #008073;
+    width: 1300px;
 }
 
 #projects {
@@ -86,4 +237,24 @@ ul {
 
 #education {
     width: auto;
+}
+
+.ul1second {
+    width: 1100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    display: flex;
+
+}
+
+.ming {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    left: 80px;
+    background-image: url(img/Minqechevir.png);
+    background-size: cover;
+    
 }
