@@ -1,6 +1,6 @@
 
 function il(a){
-    if(a%1000==0){
+    if(a%400==0){
         return "366 day"
     }
     else{
@@ -17,4 +17,4 @@ function il(a){
         }
     }
 }
-console.log(il(1616))
+console.log(il(3000) + " ve 12 ay")
