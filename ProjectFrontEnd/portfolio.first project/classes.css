@@ -9,11 +9,12 @@
 }
 
 #section2 {
-    width: 1300px;
+    width: 1148px;
     height: 100ch;
     float: right;
     margin-left: 200px;
     box-sizing: border-box;
+    word-wrap: break-word;
 }
 
 .conteiner {
@@ -29,33 +30,6 @@
     border-bottom: 1px solid rgb(184, 183, 183);
     box-shadow: inset -3px 3px 5px -5px powderblue;
 }
-.language{
-    display:grid;
-    grid-template-columns: 40px 40px 40px;
-    height:40px; 
-    column-gap: 38px;
-}
-
-.language-rus{
-    border-radius: 50%;
-    border: 1px solid red;
-    position: relative;
-    top: 15px;
-}
-.language-eng{
-    border-radius: 50%;
-    border: 1px solid red;
-    position: relative;
-    top: 15px;
-
-}
-.language-az{
-    border-radius: 50%;
-    background-image: url(img/pngwing.com.png);
-    background-size: cover;
-    position: relative;
-    top: 15px;
-}
 .row2 {
     width: auto;
     display: flex;
@@ -69,11 +43,10 @@
     display: flex;
     margin-top: 2px;
 }
-
 .col1:hover {
     background-color: whitesmoke;
     border-left: 4px solid green;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col2 {
@@ -86,7 +59,7 @@
 .col2:hover {
     background-color: whitesmoke;
     border-left: 4px solid blue;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col3 {
@@ -98,7 +71,7 @@
 .col3:hover {
     background-color: whitesmoke;
     border-left: 4px solid blueviolet;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col4 {
@@ -110,7 +83,7 @@
 .col4:hover {
     background-color: whitesmoke;
     border-left: 4px solid yellow;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col5 {
@@ -122,7 +95,7 @@
 .col5:hover {
     background-color: whitesmoke;
     border-left: 4px solid rgb(70, 6, 6);
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col6 {
@@ -134,7 +107,7 @@
 .col6:hover {
     background-color: whitesmoke;
     border-left: 4px solid goldenrod;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .col7 {
@@ -146,26 +119,95 @@
 .col7:hover {
     background-color: whitesmoke;
     border-left: 4px solid grey;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .row3 {
-    width: 1300px;
-    background-color: rgba(255, 255, 255, 0.7);
+    width: 1148px;
+    background-color: rgba(255, 255, 255, 0.774);
     height: auto;
     display: block;
 }
 
 ul {
+    width: 1148px;
+    height: 670px;
+    margin: 0%;
+    background-image: url(img/men2.jpg);
+    background-size: cover;
+}
+.ulphoto{
     width: 100%;
-    height: 700px;
-    margin: 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: block;
+    justify-content: center;
+}
+.ulvaxt{
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.719);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: -65px;
+    left: 323px;
+    text-decoration: line-through;
+    text-decoration: solid;
+    
+}
+.ulsoz{
+    height: 200px;
+    width: 800px;
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+.ulkv{
+    background:#0080738a;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    left: 235px;
+    top: 55px;
+}
+.ullin{
+    background: #008073b0;
+    width: 620px;
+    height: 5px;
+    position: relative;
+    left: 150px;
+    top: 190px;
 }
 
 .ul1 {
     width: auto;
     height: 550px;
     display: block;
+}
+.ul4{
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+.ul4first{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 80px;
+    top: 80px;
+    box-shadow: 0px 4px 13px 1px grey;
+    display: block;
+}
+.ul4second {
+    position: relative;
+   left: 250px;
+   top:70px;
+    width: 220px;
+    height: 220px;
+    background-image: url(img/dia2.png);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0px 3px 21px 3px grey;
 }
 
 .ul1firsttext {
@@ -238,7 +280,9 @@ ul {
 #education {
     width: auto;
 }
-
+#contact{
+    width: auto;
+}
 .ul1second {
     width: 1100px;
     height: 100px;
@@ -250,11 +294,37 @@ ul {
 }
 
 .ming {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 250px;
     position:relative;
     left: 80px;
-    background-image: url(img/Minqechevir.png);
     background-size: cover;
+    box-shadow: 1px 3px 15px 4px grey;
+    overflow: hidden;
+    background-image: url(img/Minqechevir.png);
     
+}
+.ming:hover{
+    box-shadow: 0px 3px 21px 3px grey;
+    height: 310px;
+    width: 280;
+    transition: all 3.5s ease;
+}
+.mingici{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 250px;
+    width: 230px;
+}
+.mingici:hover{
+    height: 310px;
+    width: 280;
+    background-color: rgba(255, 255, 255, 0.048);
+    transition: all 3.5s ease;
+}
+.facultyandspeciality{
+    width: 220px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: 15px;
 }
