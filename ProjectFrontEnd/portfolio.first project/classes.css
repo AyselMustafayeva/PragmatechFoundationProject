@@ -177,10 +177,19 @@ ul {
     left: 150px;
     top: 190px;
 }
-
-.ul1 {
+.ulabout{
     width: auto;
     height: 550px;
+    display: block;
+}
+.ul1 {
+    width: auto;
+    height: 800px;
+    display: block;
+}
+.ulproject{
+    width: auto;
+    height: 800px;
     display: block;
 }
 .ul4{
@@ -327,4 +336,86 @@ ul {
     display: flex;
     position: relative;
     left: 15px;
+}
+.projectclass{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows: 350px 350px 350px;
+    grid-gap: 30px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.classfirststep{
+    display: block;
+    box-shadow: 0px 4px 13px 1px grey;
+}
+.classfirststep1{
+    background-image: url(img/quest.png);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.classfirststep2{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+
+.classfirststep2-1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+.classfirststep2-1text{
+    color: #008073;
+    width: 470px;
+    position: relative;
+    left: 15px;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.classfirststep2-1icon{
+    width: 30px;
+    height: 30px;
+    color: #008073;
+    font-size: 2.5ch;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+.classfirststep2-2{
+height: 110px;
+width: 250px;
+position: relative;
+left: 15px;
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: relative;
+    top: 5px;
+}
+
+.skilss{
+        width: auto;
+        height: 800px;
+        display: grid;
+        grid-template-rows: 200px 200px 200px;
+        grid-gap: 60px;
+}
+
+.skilss1{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    position: relative;
+    left: 80px;
+    top: 35px;
+    box-shadow: 0px 4px 13px 1px grey;
+}
+.skilss1-1{
+    
 }

@@ -1,3 +1,8 @@
+let box=document.querySelector('.classfirststep1');
+function project(){
+    document.write("hello")
+}
+
 
 function vaxt(){
     const a=new Date();
