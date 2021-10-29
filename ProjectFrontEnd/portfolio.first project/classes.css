@@ -388,6 +388,7 @@ ul {
     position: relative;
     right: 20px;
     top: 10px;
+    cursor: pointer;
 }
 .classfirststep2-2{
 height: 110px;
@@ -402,9 +403,9 @@ position: relative;
 
 .skilss{
         width: auto;
-        height: 800px;
+        height: 860px;
         display: grid;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-rows: 215px 215px 215px;
         grid-gap: 60px;
 }
 
@@ -412,10 +413,281 @@ position: relative;
     background-color: rgb(255, 255, 255);
     width: 900px;
     position: relative;
-    left: 80px;
-    top: 35px;
+    left: 130px;
+    top: 45px;
     box-shadow: 0px 4px 13px 1px grey;
+    display: block;
 }
 .skilss1-1{
-    
+    display: block;
+    width: auto;
+    height: 30px;
+}
+.skilss1-1text{
+    font-size: 28px;
+    position: relative;
+    left: 15px;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 58, 58);
+    font-weight: lighter;
+}
+.skilss1-1line{
+    height: 1px;
+    width: 870px;
+    position: relative;
+    top: 35px;
+    left: 15px;
+    background: rgb(173, 173, 173);
+}
+.skilss2{
+height: auto;
+width: auto;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 60px;
+}
+.html{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/html.com.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.html:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.css{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/css.com.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.css:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.js{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/js.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.js:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.python{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/python.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.python:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.flask{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/flask.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.flask:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.gith{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.gith:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.anime{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/anime.png);
+    background-size: contain;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.anime:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.pro{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(img/pro.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 15px 1px grey;
+    overflow: hidden;
+}
+.pro:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+.contact{
+        width: auto;
+        height: 580px;
+        display: block;
+}
+.contacttextfirst{
+    position: relative;
+    top: 35px;
+    left: 80px;
+    width: 600px;
+    height: 70px;
+    text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
+    letter-spacing: 0em;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #015048e3;
+
+}
+.contactmsg{
+    position: relative;
+    top: 25px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: 20px 0px;
+}
+.contactmsg1{
+    height: 50px;
+    width: 500px;
+    border: 2px solid #048f5abb ;
+    box-shadow: 5px 12px 6px 3px #013521bb;
+    position: relative;
+    left: 82px;
+    margin: 20px 0px;
+}
+button{ 
+    width: 190px;
+    height: 60px;
+    border: 2px solid #025c3ad3;
+    box-shadow: 5px 12px 6px 3px #013521bb;
+    color: #013521bb;
+    background: whitesmoke;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    left: 232px;
+    top: 0px;
+    padding: 0px;
+}
+button:hover{
+    background: rgba(0, 51, 0, 0.253);
+    transition: all 3s ease;
+    font-size: 35px;
+    text-decoration: underline;
+    text-shadow: darkgrey 1px 3px 2px 1px;
+
+}
+.contactmsg2{
+    height: 100px;
+    width: 500px;
+    border: 2px solid #048f5abb ;
+    box-shadow: 5px 12px 6px 3px #013521bb;
+    position: relative;
+    left: 82px;
+    margin: 20px 0px;
+}
+.contactmsgname{
+    height: 50px;
+    width: 400px;
+    border: 2px solid #048f5abb ;
+    box-shadow: 5px 12px 6px 3px #013521bb;
+    position: relative;
+    left: 82px;
+    margin: 20px 0px;
+}
+
+.classfirststepikinci{
+    display: block;
+    box-shadow: 0px 4px 13px 1px grey;
+}
+.classfirststep1ikinci{
+    background-image: url(img/quest.png);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.classfirststep2ikinci{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+
+.classfirststep2-1ikinci{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+.classfirststep2-1textikinci{
+    color: #008073;
+    width: 470px;
+    position: relative;
+    left: 15px;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.classfirststep2-1iconikinci{
+    width: 30px;
+    height: 30px;
+    color: #008073;
+    font-size: 2.5ch;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+.classfirststep2-2ikinci{
+height: 110px;
+width: 250px;
+position: relative;
+left: 15px;
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: relative;
+    top: 5px;
 }

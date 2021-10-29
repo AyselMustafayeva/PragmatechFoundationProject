@@ -1,7 +1,9 @@
-let box=document.querySelector('.classfirststep1');
+let box=document.querySelector('.classfirststep2ikinci');
+let box2=document.querySelector('.classfirststep1ikinci');
 function project(){
-    document.write("hello")
-}
+     box.style.bottom='250px'
+   }
+
 
 
 function vaxt(){
