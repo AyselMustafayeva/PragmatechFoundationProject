@@ -636,6 +636,97 @@ button:hover{
     left: 82px;
     margin: 20px 0px;
 }
+.mycontactobwi{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 800x;
+    top: -400px;
+    display: block;
+}
+.mycontacts{
+    position: relative;
+    left: 780px;
+    top: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    color: #008073;
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 15px 1px grey;
+    cursor: pointer;
+}
+.mycontacts:hover{
+    background-color:#008073;
+    color: rgb(255, 255, 255);
+    transition: all 1.5s ease;
+}
+.mycontacts p{
+    position: relative; 
+    top: 50px;
+}
+.griddi{
+    display: grid;
+    grid-template-rows: 90px 90px 90px;
+    grid-gap: 50px;
+    display: none;
+    position: relative;
+    left: 800px;
+}
+.griddi li{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #0080734f;
+    box-shadow: 0px 2px 15px 1px grey;
+    font-size: 45px;
+    color: #008073 ;
+    cursor: pointer;
+    position: relative;
+    top: -25px;
+}
+.griddi li:hover{
+    background: #008073e8;
+    color: whitesmoke;
+}
+
+.kvadratiki{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 720px;
+    top: -360px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px; 
+}
+.kvadratiki2{
+    width: 400px;
+    height: 60px;
+    font-size: 27px;
+    color: black;
+    position: relative;
+    left: 720px;
+    top: -300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px; 
+}
+.kvadratiki3{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 730px;
+    top: -250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px; 
+}
 
 .classfirststepikinci{
     display: block;
