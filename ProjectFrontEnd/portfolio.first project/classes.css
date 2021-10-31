@@ -275,7 +275,7 @@ ul {
     justify-content: center;
     height: 100px;
     background: #008073;
-    width: 1300px;
+    width: 1148px;
 }
 
 #projects {
@@ -346,6 +346,7 @@ ul {
     top: 30px;
     left: 100px;
 }
+
 .classfirststep{
     display: block;
     box-shadow: 0px 4px 13px 1px grey;
@@ -355,6 +356,7 @@ ul {
     background-size: cover;
     width: auto;
     height: 200px;
+    cursor: pointer;
 }
 .classfirststep2{
     background-color: rgb(255, 255, 255);
@@ -400,6 +402,54 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 position: relative;
     top: 5px;
 }
+.kvadrat{
+    width: 300px;
+    height:  350px;
+    grid-gap: 30px;
+    position: relative;
+    display: none;
+    position: relative;
+    top: 0px;
+    background: whitesmoke;
+}
+
+.kvadrat p{
+    width: auto;
+    height: 240px;
+    background: #ffffff;
+    position: relative;
+    top: -15px;
+}
+.kvadrat li{
+    height: 127px;
+    width: auto;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid grey;
+    position: relative;
+    top: -47px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 0px 4px 13px 1px grey;
+}
+
+.icon{
+    font-size: 55px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    box-shadow: 0px 4px 13px 1px grey;
+    border-radius: 50%;
+    height: 53px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
 
 .skilss{
         width: auto;
@@ -663,7 +713,7 @@ button:hover{
 .mycontacts:hover{
     background-color:#008073;
     color: rgb(255, 255, 255);
-    transition: all 1.5s ease;
+    transition: all 3s ease;
 }
 .mycontacts p{
     position: relative; 
@@ -692,6 +742,8 @@ button:hover{
 .griddi li:hover{
     background: #008073e8;
     color: whitesmoke;
+    transition: all 3s ease;
+    
 }
 
 .kvadratiki{
@@ -728,57 +780,4 @@ button:hover{
     text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px; 
 }
 
-.classfirststepikinci{
-    display: block;
-    box-shadow: 0px 4px 13px 1px grey;
-}
-.classfirststep1ikinci{
-    background-image: url(img/quest.png);
-    background-size: cover;
-    width: auto;
-    height: 200px;
-}
-.classfirststep2ikinci{
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    height: 150px;
-    display: block;
-    overflow: hidden;
-}
 
-.classfirststep2-1ikinci{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    position: relative;
-    top: 15px;
-}
-.classfirststep2-1textikinci{
-    color: #008073;
-    width: 470px;
-    position: relative;
-    left: 15px;
-    font-weight: lighter;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.classfirststep2-1iconikinci{
-    width: 30px;
-    height: 30px;
-    color: #008073;
-    font-size: 2.5ch;
-    position: relative;
-    right: 20px;
-    top: 10px;
-    cursor: pointer;
-}
-.classfirststep2-2ikinci{
-height: 110px;
-width: 250px;
-position: relative;
-left: 15px;
-font-size: 15px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-position: relative;
-    top: 5px;
-}
