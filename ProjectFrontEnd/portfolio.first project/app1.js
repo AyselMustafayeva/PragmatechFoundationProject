@@ -24,18 +24,33 @@ let kv3=document.querySelectorAll('.kvadrat')[2]
 let kv4=document.querySelectorAll('.kvadrat')[3]
 let kv5=document.querySelectorAll('.kvadrat')[4]
 let kv6=document.querySelectorAll('.kvadrat')[5]
-function Accordion(elem){
- box.style.display='none'
- box2.style.display='grid'
- box4.style.display='block'
- box5.style.display='block'
- box6.style.display='block'
+let kvbolwe=document.querySelectorAll('.kvadratbolwe')
+let kvliniya=document.querySelectorAll('.kvaliniya')
+let heigtt=2
+function itmek(){
+  box.style.opacity='0'
+}
+function gelmek(){
+  box2.style.opacity='1'
+  box2.style.top='-190px'
+  box31.style.display='block'
+  box32.style.display='block'
+  box33.style.display='block'
 }
 
+function Accordion(elem){
+ setInterval(itmek,1000)
+ setInterval(gelmek,3000)
+}
+
+
+
+
+
 function project1(){
-  kv1.style.display='block'
   pr01.style.display='none'
-  pr0.style.display='none'
+pr0.style.display='none'
+kv1.style.display='block'
 }
 
 function project2(){
@@ -116,3 +131,6 @@ var millisecon=a.getUTCMilliseconds()
 document.querySelector('.ulvaxt').innerHTML=`${hour}:${minute}:${second}:${millisecon}`;
 }
 setInterval(vaxt,1)
+
+
+

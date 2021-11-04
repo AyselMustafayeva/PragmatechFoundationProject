@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #section1 {
     width: 200px;
     height: 100ch;
@@ -15,6 +18,7 @@
     margin-left: 200px;
     box-sizing: border-box;
     word-wrap: break-word;
+    
 }
 
 .conteiner {
@@ -39,7 +43,8 @@
 }
 
 .col1 {
-    width: auto;
+    width: 200px;
+    height: 46px;
     display: flex;
     margin-top: 2px;
 }
@@ -292,6 +297,9 @@ ul {
 #contact{
     width: auto;
 }
+#hobbies{
+    width: auto;
+}
 .ul1second {
     width: 1100px;
     height: 100px;
@@ -350,12 +358,13 @@ ul {
 .classfirststep{
     display: block;
     box-shadow: 0px 4px 13px 1px grey;
+    border: 2px solid rgba(128, 128, 128, 0.74);
 }
 .classfirststep1{
     background-image: url(img/quest.png);
     background-size: cover;
     width: auto;
-    height: 200px;
+    height: 202px;
     cursor: pointer;
 }
 .classfirststep2{
@@ -402,15 +411,27 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 position: relative;
     top: 5px;
 }
-.kvadrat{
+.kvadratbolwe{
+width: 300px;
+height: 345px;
+display: none;
+}
+.kvaliniya{
     width: 300px;
-    height:  345px;
+    height: 10px;
+    display: block;
+    background: rgb(255, 255, 255);
+}
+.kvadrat{
+    width: 296px;
+    height:  343px;
     grid-gap: 30px;
     position: relative;
     display: none;
     position: relative;
     top: 0px;
     background: whitesmoke;
+    border:  2px solid rgba(128, 128, 128, 0.596);
 }
 
 .kvadrat p{
@@ -469,8 +490,10 @@ position: relative;
         width: auto;
         height: 860px;
         display: grid;
-        grid-template-rows: 215px 215px 215px;
+        grid-template-rows: 225px 225px 225px;
         grid-gap: 60px;
+        position: relative;
+        top: -15px;
 }
 
 .skilss1{
@@ -513,8 +536,8 @@ position: relative;
 top: 60px;
 }
 .html{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/html.com.png);
     background-size: cover;
@@ -527,8 +550,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .css{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/css.com.png);
     background-size: cover;
@@ -541,8 +564,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .js{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/js.png);
     background-size: cover;
@@ -555,8 +578,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .python{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/python.png);
     background-size: cover;
@@ -569,8 +592,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .flask{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/flask.png);
     background-size: cover;
@@ -583,8 +606,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .gith{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/pngwing.com.png);
     background-size: cover;
@@ -597,8 +620,8 @@ top: 60px;
     transition: all 3s ease;
 }
 .anime{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/anime.png);
     background-size: contain;
@@ -610,9 +633,11 @@ top: 60px;
     transform: rotate(360deg);
     transition: all 3s ease;
 }
+
+
 .pro{
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     background-image: url(img/pro.png);
     background-size: cover;
@@ -723,6 +748,7 @@ button:hover{
     justify-content: center;
     box-shadow: 0px 2px 15px 1px grey;
     cursor: pointer;
+    transition: all 3s ease;
 }
 .mycontacts:hover{
     background-color:#008073;
@@ -737,11 +763,13 @@ button:hover{
     display: grid;
     grid-template-rows: 90px 90px 90px;
     grid-gap: 50px;
-    display: none;
+    opacity: 0;
     position: relative;
     left: 800px;
+    transition: all 3s ease;
 }
 .griddi li{
+    display: none;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -766,4 +794,30 @@ button:hover{
 .griddi li a:hover{
     color: antiquewhite;
     transition: all 3s ease;
+}
+.myhobbies{
+    width: auto;
+    height: 1280px;
+}
+.hobbiesrow{
+    width: auto;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: 80px;
+}
+.hobbiesrowtext{
+    color: black;
+    text-shadow:5px 12px 6px 3px grey ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 230px;
+    width: 650px;
+    background: #cccccc65;
+    
+}
+.hobbiesrowimg{
+    height: 230px;
+    width: 230px;
+    box-shadow: 0px 4px 13px 1px grey;
 }
