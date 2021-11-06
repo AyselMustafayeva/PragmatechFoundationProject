@@ -3,6 +3,8 @@ let telo=document.querySelector("body")
 let txt=document.querySelector(".text")
 let korobka=document.querySelector(".box2")
 let txt2=document.querySelector(".text2")
+let txt4=document.querySelector(".text4")
+var regem=0;
 var i=0;
 var n=5;
 var tekst=`I regard the brain as a computer which will stop working when its components fail. 
@@ -48,3 +50,17 @@ korobka.style.display="none"
 
 //...
 
+//dorduncu task
+function Plus(){
+    regem++
+    txt4.innerHTML=regem
+}
+
+function Sil(){
+    regem=0
+    txt4.innerHTML=regem
+}
+function Minus(){
+    regem--
+    txt4.innerHTML=regem
+}
