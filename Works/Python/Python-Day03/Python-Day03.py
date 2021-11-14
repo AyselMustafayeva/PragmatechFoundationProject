@@ -37,42 +37,22 @@ def icindeeolan():
 def  axriiolan():
     for ad in adlar:
         if ad[(len(ad)-1)]=="i":
-            print(ad + " bu adlarin axrinda i herifi var ")
-
-q=len(adlar[0])
-c1=[]
-c2=[]
-c3=[]
-c4=[]
-c5=[]
-def sozderinleni():
-   global c1
-   global c2
-   global c3
-   global c4
-   global c5
-   for ad in adlar:
-       if len(ad)==q:
-           c1.append(ad)
-       if len(ad)==(q+1): 
-             c2.append(ad)
-       if len(ad)==(q-1):
-            c3.append(ad)
-       if len(ad)==(q+2): 
-             c4.append(ad)
-       if len(ad)==(q-2):
-            c5.append(ad)
-   print(c1)
-   print(c2)
-   print(c3)
-   print(c4)
-   print(c5)
-           
-
-
-     
+            print(ad + " bu adlarin axrinda i herifi var ")     
  
         
 
-
-sozderinleni()
+x=0
+c=[]
+def biryerde():
+    global c
+    global x
+    for i in range(20):
+        for t in range(len(adlar)):
+            if len(adlar[t])==x:
+                c.append(adlar[t])
+        if len(c)>0:
+            print(c)
+        x=x+1
+        c=[]
+        
+biryerde()
