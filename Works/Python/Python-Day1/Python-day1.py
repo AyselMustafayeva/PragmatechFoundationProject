@@ -17,4 +17,11 @@ def changebook():
         print(key,": ",val)
         break
     
-changebook()
+
+
+
+
+import os
+locat2="C:/Users/user/Desktop/Github/Works/Python/"
+path2=os.path.join(locat2,"CSS")
+os.mkdir(path2)

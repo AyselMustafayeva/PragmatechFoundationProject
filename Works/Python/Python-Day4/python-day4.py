@@ -15,6 +15,7 @@ locold="C:/Users/user/Desktop/portfolio/Portfolio/img/"
 imgname="bfoto_ru_4762.jpg"
 locolnew="C:/Users/user/Desktop/Github/Works/Python/OsModule/"
 shutil.move(os.path.join(locold,imgname),locolnew)
+ 
 
 
 
