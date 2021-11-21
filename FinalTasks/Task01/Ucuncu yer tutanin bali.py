@@ -1,5 +1,6 @@
 #https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=false
 #amma ucuncu yer tutan waqirdin balini cixardacam
+
 saqirdsayi=int(input("Nece saqird istrak edib idman olimpiadasinda: "))
 array=[]
 for i in range(saqirdsayi):

@@ -1,5 +1,5 @@
 #https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
-
+#Bu program reqemlerin ededi ortasini tapir,amma regemler tekrarlananda, o regemnen birini sahliyir
 
 def edediorta():
     sayi=int(input("Regem sayini dahil et: "))
@@ -15,5 +15,5 @@ def edediorta():
         summa=summa+regem
     print("Cavab: ",summa/len(newarray))
 
-print("Bu program reqemlerin ededi ortasini tapir,\namma regemler tekrarlananda, o regemnen birini sahliyir")
+
 edediorta()

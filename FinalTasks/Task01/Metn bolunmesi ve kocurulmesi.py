@@ -1,4 +1,6 @@
 # link: https://www.hackerrank.com/challenges/text-wrap/problem
+#Indi yazdiqim proqram dahil etdiyin sozu ya metni setirde herif sayina gore bolur(vergul dahil olmaqla),
+# sayini dahil edirik ozumuz,ve alinan sozleri teze setire kocurub gosterir
 
 text = input("Sozu ya mətni dahil edin: ")
 setir=int(input("Sətirdə neçə hərf sayı olduqunu dahil et: "))
@@ -22,7 +24,6 @@ def bolme():
     for bolunentext in Sozyiqma:
         print(bolunentext)
 
-print("Indi yazdiqim proqram dahil etdiyin sozu ya metni setirde herif sayina gore bolur(vergul dahil olmaqla),\nsayini dahil edirik ozumuz,ve alinan sozleri teze setire kocurub gosterir")
 bolme()
     
 

@@ -1,5 +1,5 @@
 #https://www.hackerrank.com/challenges/python-loops/problem
-# Ve ondan bawqa Fibonaççi reqemlerini yazdim 
+# Ve ondan bawqa Fibonaççi reqemlerini yazdim birden bawdiyarax
 import math
 def regeminkvadrati():
     sayi=int(input(("Hansi regeme geder regemlerin kvadrati tapilsin: ")))
