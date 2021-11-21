@@ -1,5 +1,0 @@
-for say2 in range(len(groupcart[say])):
-if len(groupcart[say])!=16:
-                print("Invalid")
-            if cartsayi[say][0]!=4 and cartsayi[say][0]!=5 and cartsayi[say][0]!=6:
-                print("Invalid")

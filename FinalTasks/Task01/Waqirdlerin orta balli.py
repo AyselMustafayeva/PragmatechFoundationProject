@@ -11,7 +11,7 @@ studentsayi=int(input("Student sayini dahil edin: "))
 for i in range(studentsayi):
     name=input("Adinizi dahil edin: ")
     schoolclass=input("Sinifinizi dahil edin: ")
-    mark=int(input("Balinizi dahil edin "))
+    mark=int(input("Balinizi dahil edin (iki regemli ball olmalidi): "))
     array.append(student((i+1),mark,schoolclass,name))
 print("Id   Marks  Class   Name")
 for t in range(studentsayi):
