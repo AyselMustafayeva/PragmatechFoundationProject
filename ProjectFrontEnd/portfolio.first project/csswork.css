@@ -47,6 +47,7 @@ html{
     height: 46px;
     display: flex;
     margin-top: 2px;
+    margin-top: 0px;
 }
 .col1:hover {
     background-color: whitesmoke;
@@ -1062,7 +1063,7 @@ h4{
     left:0;
     bottom:0;
     right:0;
-    top:65px;
+    top: 65px;
     background-image: url(img/eng.jpg);
     background-size: cover;
     border: 2px solid rgb(71, 71, 71);

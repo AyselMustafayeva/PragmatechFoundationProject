@@ -37,6 +37,15 @@ let hob0=document.querySelectorAll('.hobbiesquest')[0]
 let hob1=document.querySelectorAll('.hobbiesquest')[1]
 let hob2=document.querySelectorAll('.hobbiesquest')[2]
 let hob3=document.querySelectorAll('.hobbiesquest')[3]
+let about=document.querySelector(".col1")
+let project=document.querySelector(".col2")
+let skills=document.querySelector(".col3")
+let eeducation=document.querySelector(".col4")
+let contact=document.querySelector(".col5")
+let myhobbies=document.querySelector(".col6")
+let resume=document.querySelector(".col7")
+
+
 
 function itmek(){
   box.style.opacity='0'
@@ -131,9 +140,6 @@ function back6(){
   pr5.style.display='block'
   pric5.innerHTML='<i class="far fa-check-circle"></i>'
 }
-
-
-
 
 
 
