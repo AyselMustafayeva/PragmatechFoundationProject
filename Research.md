@@ -1,11 +1,11 @@
 # Etdiyim araşdırmalar:
 
-  [Saytın dahilində olan sozə ya cümləyə necə link vermək ](https://html5book.ru/hyperlinks-in-html/)  
-- 1) Bir kitab magazasi düşünün.Bu mağazanın online formada idare olunması tələb olunur: Uc class olacaq , mence bele cur yazilacaq:
+- [Saytın dahilində olan sozə ya cümləyə necə link vermək ](https://html5book.ru/hyperlinks-in-html/)  
+- 1.Bir kitab magazasi düşünün.Bu mağazanın online formada idare olunması tələb olunur: Uc class olacaq , mence bele cur yazilacaq:
 - books=[]
 - sales=[]
 - sellers=[]
-- class Kitablar:]
+- class Kitablar:
   - def __init_(kitab,_adi,_ili,_yazicisi,_qiymeti):
     - kitab.ad=_adi
     - kitab.ili=_ili
