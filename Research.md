@@ -2,16 +2,12 @@
 
 - [Saytın dahilində olan sozə ya cümləyə necə link vermək ](https://html5book.ru/hyperlinks-in-html/)  
 - 1.Bir kitab magazasi düşünün.Bu mağazanın online formada idare olunması tələb olunur: Uc class olacaq , mence bele cur yazilacaq:
-- books=[]
-- sales=[]
-- sellers=[]
 - class Kitablar:
   - def __init_(kitab,_adi,_ili,_yazicisi,_qiymeti):
     - kitab.ad=_adi
     - kitab.ili=_ili
     - kitab.yazicisi=_yazicisi
     - kitab.qiymeti=_qiymeti
-    - books.append(kitab)
   - def Informasiyayiqma(kitab):
     - file=open('Kitablar_haqda_melumat.txt','a')
     - file.write(f'{kitab.ad} - {kitab.ili} il - {kitab.yazicisi} : {kitab.qiymeti} man\n')
@@ -22,7 +18,6 @@
     - satiw.il=_il
     - satiw.saylar=_saylari
     - satiw.umumipul=_umumipul
-    - sales.append(satiw)
   - def Informasiyayiqma(satiw):
     - file=open('Satiwlar_haqda_melumat.txt','a')
     - file.write(f'{satiw.gun}.{satiw.ay}.{satiw.il}: satildi {satiw.saylar} kitab, umumi pul = {satiw.umumipul} man\n')
@@ -33,7 +28,6 @@
     - iwci.soyad=_soyad
     - iwci.vezife=_vezife
     - iwci.maiw=_maiw
-    - sellers.append(iwci)
   - def Informasiyayiqma(iwci):
     - file=open('Iwciler_haqda_melumat.txt','a')
     - file.write(f'{iwci.id} | {iwci.ad} {iwci.soyad} | {iwci.vezife} | {iwci.maiw} man\n')
