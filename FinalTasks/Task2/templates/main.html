@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='home.css') }}">
+   
+</head>
+<body style="margin: 0px; height: 600px;">
+<img src="{{ url_for('static',filename='img/fonoviy.jpeg')}}" alt="" width="1380px" height="669px">
+<div class="text3"></div>
+<form method="post" action="/introduce" style="position: relative; height: 0px; bottom: 540px; left: 50px;">
+    <input  class="input" type="text" name="ad" placeholder="  Name*" style="position: relative; bottom: 50px;" >
+    <input class="input" type="text" name="soyad" placeholder=" Surname*" style="position: relative; right:225px;">
+    <button  class="knopka2"  type="submit" style="height: 40px; width: 220px;" >Okey.</button>
+</form>
+{% for message in messages %}
+<div class="text4">Nice to meet you, {{ message.ad }}&nbsp;<b>{{ message.soyad }}</b>.<br>Choose what you would like to do.</div>
+{% endfor %}
+<a class="box1" href="{{ url_for('facts') }}"><div style="position: relative; left: 30px; top: 30px;">Write the name of the capital and <br> I will surprise you with the fact</div></a>
+<a class="box2" href="{{ url_for('random') }}"><div style="position: relative; top:90px; left:30px;">Play with <br> me at a <br> random <br> number</div></a>
+<script src="{{ url_for('static',filename='java2.js') }}"></script>
+</body>
+</html>
