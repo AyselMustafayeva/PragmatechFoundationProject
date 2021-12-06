@@ -1,4 +1,5 @@
 from collections import namedtuple
+from types import EllipsisType
 from flask import Flask, render_template, redirect, url_for, request
 from random import randint
 
@@ -28,6 +29,8 @@ def introduce():
         messages.clear()
     ad = request.form['ad']
     soyad = request.form['soyad']
+    if ad=="" and soyad=="":
+         return render_template('main.html', messages=messages)
     messages.append(show(ad, soyad))
     return redirect(url_for('main'))
     
@@ -48,11 +51,33 @@ def facts2():
         return amsterdam()
     elif text2=="Jerusalem":
         return jerusalem()
+    elif text2=="Baku":
+        return baku()
+    elif text2=="Paris":
+        return paris()
+    elif text2=="Tokyo":
+        return tokyo()
+    elif text2=="Athens":
+        return athens()
+    else:
+        return render_template('citysfacts.html')
 
     
 @app.route('/moscow', methods=['GET'])
 def moscow():
     return render_template('Moscow.html')
+
+@app.route('/athens', methods=['GET'])
+def athens():
+    return render_template('Athens.html')
+
+@app.route('/tokyo', methods=['GET'])
+def tokyo():
+    return render_template('Tokyo.html')
+
+@app.route('/paris', methods=['GET'])
+def paris():
+    return render_template('Paris.html')
 
 @app.route('/berlin', methods=['GET'])
 def berlin():
@@ -66,6 +91,10 @@ def amsterdam():
 def jerusalem():
     return render_template('Jerusalem.html')
 
+@app.route('/baku', methods=['GET'])
+def baku():
+    return render_template('Baku.html')
+
 @app.route('/random', methods=['GET'])
 def random():
     return render_template('random.html',messages2=messages2)
@@ -76,6 +105,8 @@ def add_num():
         messages2.clear()
     mynum=randint(0, 1000)
     yournum = request.form['yournum']
+    if yournum=="":
+        return render_template('random.html',messages2=messages2)
     if mynum>int(yournum):
         result=a
     if mynum==int(yournum):

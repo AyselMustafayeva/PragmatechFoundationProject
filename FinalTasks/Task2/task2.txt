@@ -1,8 +1,0 @@
-Birinci sehifede ekranda bawqa yere bassaz, knopka ora yerlewir.
-ikinci ozunu ifade edirsen, robot sene secim verir. 
-Birinci variant: seher adi dahil edib o weher haqda maraqli fact goressen
-Ikinci variant: sen regem yazirsan , robot ise random regem secir ve muqaise edir, kimde coxdu ya az
-
-Qeyd edim ki helem 4 weher dahil etmiwem.
-Moscow,Berlin,Amsterdam,Jerusalem, sabax davam edib coxaldacam.
-Ve nese inputdan dahil edende variable yenilenir

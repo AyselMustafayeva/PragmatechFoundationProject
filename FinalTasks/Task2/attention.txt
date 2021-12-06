@@ -1,0 +1,12 @@
+1)Birinci sehifede ekranda bawqa yere bassaz, knopka ora yerlewir, ona gore "yes" basmalisan.
+2)Ikinci sehifede ozunu ifade edirsen, robot senle taniw olur 
+3)Birinci variant: weher adi dahil edib o weher haqda maraqli fact goressen
+4)Ikinci variant: sen regem yazirsan , robot ise random regem secir ve muqaise edir, 
+kimde coxdu ya az,kim uddu , kim uduzdu
+
+Qeyd edim ki 8 weher dahil etmiwem:
+Moscow,Berlin,Amsterdam,Jerusalem,Athens,Paris,Tokyo,Baku.
+Qeyd edim ki cixan message yenilenir ya temizlenir "okey" basanda
+
+Tekrar olan momentler var, ve fikrim var nece qisaltdirmaq, 
+amma bilmirem project ozu necedi sizin fikrince, lazim olsa, duzelderem

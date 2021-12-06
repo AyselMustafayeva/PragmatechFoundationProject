@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>facts</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
 </head>
+
 <body style="margin: 0px; height: 669px;">
     <img src="{{ url_for('static',filename='img/fonn3.jpeg')}}" alt="" width="1380px" height="669px">
-    <div class="text5"></div>
+    <div class="text4"></div>
     <form method="post" action="/factsfind" style="position: relative; bottom: 500px;">
-    <input  class="input"  style="width:400px;height:100px;position: fixed; bottom: 340px; left:200px;"type="text" name="text2" placeholder="   Write here name of the city*">
-    <button class="box1"  type="submit" style="height: 40px; width: 220px; position: fixed; top:330px;left:308px">Okey.</button>
-    <script src="{{ url_for('static',filename='java3.js') }}"></script>
-</form>
+        <input class="input" style="width:400px;height:100px;position: fixed; bottom: 340px; left:200px;" type="text"
+            name="text2" placeholder="   Write here name of the city*">
+        <button class="box1" type="submit"
+            style="height: 40px; width: 220px; position: fixed; top:330px;left:308px">Okey.</button>
+        <script src="{{ url_for('static',filename='facts.js') }}"></script>
+    </form>
 </body>
+
 </html>
